@@ -1,0 +1,21 @@
+.content {
+  margin-left: 333.3333333333px;
+}
+
+.footer {
+  margin-top: 200px;
+  margin-left: 300px;
+  position: relative;
+  height: auto;
+  padding: 1px 0;
+  background-color: blue;
+}
+.footer p {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100;
+  text-align: center;
+}
+
+/*# sourceMappingURL=operator.css.map */

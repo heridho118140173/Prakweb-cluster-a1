@@ -1,0 +1,17 @@
+@import "base";
+
+.content {
+    background-attachment: cornflowerblue;
+    color: black;
+}
+
+@mixin transform($property) {
+    padding: $property;
+    background-color: aquamarine;
+    color: aliceblue;
+    margin-left: 330px;    
+}
+
+.empat {
+    @include transform(20px);
+}

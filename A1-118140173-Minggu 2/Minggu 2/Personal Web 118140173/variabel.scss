@@ -1,0 +1,110 @@
+$mycolour : rgb(95, 223, 255);
+$bgcolour : #333;
+$number1:20px;
+$align1:center;
+
+.navbar{
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: $bgcolour;
+    }
+    li {
+        float: left;
+        margin-right: $number1;
+    }
+    li a {
+        display: block;
+        color: white;
+        text-align: $align1;
+        padding: 14px $number1;
+        text-decoration: none;
+    }
+    li a:hover {
+        background-color: $mycolour;
+    }
+}
+
+.sidebar {
+    float: left;
+    height: auto;
+    width: 300px;
+    background-color: #f1f1f1;
+    padding: {
+        top: 10px;
+        bottom: 300px;
+    };
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        width: 200px;
+        text-align: center;
+        background-color: #f1f1f1;
+        margin : {
+            top: 20px;
+            bottom: 20px;
+            left: 0;
+            right: 0;
+        }
+    }
+    li {
+        a{
+            display: block;
+            color: #000;
+            padding: 10px 16px;
+            width: 250px;
+            text-decoration: none;
+        }
+    }
+    li {
+        a:hover{
+            background-color: #555;
+            color: white;
+        }
+    }
+}
+
+@import "base";
+
+.content {
+    background-attachment: cornflowerblue;
+    color: black;
+}
+
+@mixin transform($property) {
+    padding: $property;
+    
+    color: aliceblue;
+    margin-left: 330px;    
+}
+
+.empat {
+    @include transform(20px);
+}
+
+$var : 100;
+
+.content{
+    margin-left: $var/3*10px;
+}
+
+.footer{
+    margin-top: $var * 2px;
+    margin-left: (1px+2px) * $var;
+    position: relative;
+    height: auto;
+    padding: 1px 0;
+    //background-color: deeppink;
+    p{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        background-color: salmon;
+        text-align: center;
+    }
+}

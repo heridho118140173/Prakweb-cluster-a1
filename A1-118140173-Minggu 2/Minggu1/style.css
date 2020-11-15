@@ -1,0 +1,27 @@
+.header{
+    width: 784px;
+    height: 200px;
+    background-image: url(https://i2.wp.com/kargoku.id/wp-content/uploads/2018/11/pengertian-pajak-1.jpg?fit=900%2C500&ssl=1)
+}
+.kol1{
+	width: 200px;
+    height: auto;
+    position: fixed;
+}
+
+#kol2{
+	width: 584px;
+	height: auto;
+	margin-left: 205px;
+	
+}
+
+footer{
+	width: 784px;
+	height: 100px;
+	background-color: rgb(118, 80, 148);
+	padding: 1px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

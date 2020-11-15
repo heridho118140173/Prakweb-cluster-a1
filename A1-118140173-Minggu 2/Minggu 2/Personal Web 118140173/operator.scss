@@ -1,0 +1,21 @@
+$var : 100;
+
+.content{
+    margin-left: $var/3*10px;
+}
+
+.footer{
+    margin-top: $var * 2px;
+    margin-left: (1px+2px) * $var;
+    position: relative;
+    height: auto;
+    padding: 1px 0;
+    background-color: blue;
+    p{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100;
+        text-align: center;
+    }
+}

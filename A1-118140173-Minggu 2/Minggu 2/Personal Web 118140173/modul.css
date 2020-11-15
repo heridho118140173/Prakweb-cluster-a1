@@ -1,0 +1,18 @@
+body {
+  font: Helvetica, sans-serif;
+  color: black;
+}
+
+.content {
+  background-attachment: cornflowerblue;
+  color: black;
+}
+
+.empat {
+  padding: 20px;
+  background-color: aquamarine;
+  color: aliceblue;
+  margin-left: 330px;
+}
+
+/*# sourceMappingURL=modul.css.map */
