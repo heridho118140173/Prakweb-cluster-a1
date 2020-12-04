@@ -6,9 +6,9 @@
 <body>
 <?php 
 
-require 'functions.php';
+require 'function.php';
 
-$conn = mysqli_connect("localhost","root","","heridhodb") or die("koneksi ke database gagal");
+$conn = mysqli_connect("localhost","root","","mahasiswa") or die("koneksi ke database gagal");
 
 if(isset($_GET['carinama'])){
 	$cari = $_GET['carinama'];
