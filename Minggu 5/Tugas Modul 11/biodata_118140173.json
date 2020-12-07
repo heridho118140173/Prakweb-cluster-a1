@@ -1,0 +1,22 @@
+{
+    "biodata": {
+        "nama" : "Heridho",
+        "nim" : "118140173",
+        "hobby" : "Main game, nonton film chef",
+        "alamat" : {
+            "#text" : "saya tinggal di",
+            "jl" : "Pagar alam",
+            "Gg" : "Cendana",
+            "kota" : "Bandar Lampung",
+        },
+        "mediaSosial": {
+            "IGN" : "ASBYYRRR",
+            "instagram" : "Heridho_asbyyrrr",
+            "github" : "heridho118140173",
+        },
+        "Gamekesukaan" : {
+            "Moba" : "Mobile Legends",
+            "MMORPG" : "Dragon Nest"
+        }
+    }
+}

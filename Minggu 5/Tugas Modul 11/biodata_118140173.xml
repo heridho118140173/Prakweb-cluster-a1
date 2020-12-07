@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<biodata>
+    <nama>Heridho</nama>
+    <nim> "118140173"</nim>
+    <hobby> "Main game, nonton film chef"</hobby>
+    <alamat>
+        saya tinggal di
+        <jl>Pagar alam</jl>
+        <Gg>cendana</Gg>
+        <kota>Bandar Lampung</kota>
+    </alamat>
+    <mediaSosial>
+        <IGN>ASBYYRRR</IGN>
+        <instagram>Heridho_asbyyrrr</instagram>
+        <github>heridho118140173</github>
+    </mediaSosial>
+    <Gamekesukaan>
+        <Moba>Mobile Legends</Moba>
+        <MMORPG>Dragon Nest</MMORPG>
+    </Gamekesukaan>
+</biodata>
